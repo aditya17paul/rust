@@ -1,3 +1,6 @@
+mod story1_print;
+mod story2_variable;
 fn main() {
-    println!("Hello to git commands check");
+    story1_print::print();
+    story2_variable::variable();
 }
