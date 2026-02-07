@@ -1,6 +1,6 @@
-mod story1_print;
-mod story2_variable;
+mod cricket;
+mod story_decisions;
 fn main() {
-    story1_print::print();
-    story2_variable::variable();
+    cricket::scoreboard();
+    story_decisions::star_player();
 }
